@@ -1,0 +1,32 @@
+{
+  "name": "postgresql-nodejs",
+  "version": "1.0.0",
+  "description": "Postgresql on nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "html": "copyfiles --up 1 src/public/*.html dist",
+    "build": "tsc && npm run html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloslafuente/postgresql-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloslafuente/postgresql-nodejs/issues"
+  },
+  "homepage": "https://github.com/carloslafuente/postgresql-nodejs#readme",
+  "dependencies": {
+    "@types/node": "^14.0.25",
+    "express": "^4.17.1",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.7",
+    "copyfiles": "^2.3.0",
+    "@types/mysql": "^2.15.15"
+  }
+}
