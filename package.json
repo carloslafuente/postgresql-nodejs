@@ -21,7 +21,7 @@
   "homepage": "https://github.com/carloslafuente/postgresql-nodejs#readme",
   "dependencies": {
     "@types/node": "^14.0.25",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mysql": "github:mysqljs/mysql"
   },
   "devDependencies": {
